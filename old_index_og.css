@@ -1,0 +1,109 @@
+body{
+    
+    width: 500px;
+}
+.firstDIV{
+    position: relative;
+    margin: 20px 30px;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-family: Gilroy, arial, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight :400;
+}
+
+.firstImg{
+    width: 200px;
+    height: 200px;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+}
+
+
+.logoDIV{
+    display: flex;
+    align-items: center;
+}
+
+.headerItems{
+    display: flex;
+    margin-left: 220px;
+    list-style-type: none;
+    gap: 80px;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+
+.card{
+    
+    padding: 10px;
+    width: 250px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+}
+
+.imageCard{
+    width: 100%;
+    border-radius: 20px;
+    height: 250px;
+    object-fit: fit;
+}
+
+.restaurantListCard{
+    width: 1240px;
+    margin-left: 100px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+a{  
+    color: black;
+    text-decoration: none;
+}
+
+.card:hover {
+    padding: 20px 20px;
+    transition-duration: 500ms;
+  }
+
+ .SearchBarDiv{
+   
+    position: relative;
+    left: 1030px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+ } 
+
+
+ .EmptyDiv{
+    border: 1px solid rgb(167, 162, 162);
+    border-radius: 20px;
+    width: 250px;
+    height: 400px;
+ }
+
+ .LoginButton{
+    position: relative;
+    Left: 80px;
+ }
+
+ .imgrestaurantsMenuInside{
+    height: 300px;
+    width: 300px;
+    object-fit: fit;
+ }
+
+ .RestaurantMenuCard{
+    display: flex;
+    gap:40px;
+    width: 800px;
+    margin: 3% auto;
+ }
